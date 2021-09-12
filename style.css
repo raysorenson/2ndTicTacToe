@@ -3,13 +3,16 @@
     padding-top: 3em;
 }
 
+/* 9 game cells */ 
 div :not(#board) :not(.row) {
     float: left;
     height: 100px;
     width: 100px;
     cursor: grab;
+    line-height: 100px;
+    font-size: 75px;
 }
-div .row {
+.row {
     clear: both;
     width: 302px;
     margin: 0 auto
