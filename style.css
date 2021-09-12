@@ -12,12 +12,9 @@ div :not(#board) :not(.row) {
 div .row {
     clear: both;
     width: 302px;
+    margin: 0 auto
 }
-div .row {
-    margin-left: auto;
-    margin-right: auto;
-    width: 302px;
-}
+
 .top {
     border-bottom: 1px black solid;
 }
